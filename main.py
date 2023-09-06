@@ -4,25 +4,23 @@
 print("All Credit to SkyeGamesYT")
 
 
-#Menu Function
-diff exit1()
-input("Press enter to exit")
+def exit1():
+    input("Press enter to Exit")
 
 
-diff menu()
-print("-" * 50)
-x = input("Choice 1/nChoice 2/nChoice 3")
-print("-" * 50)
-if x == 1:
-  #Code for choice 1
-if x == 2:
-  #Code for choice 2
-if x == 3:
-  #Code for choice 3
-diff again():
-y = input("Print again? Y/N ")
-if y == "Y":
-  menu()
-if y == "N":
-  exit1()
-#Starting of function
+def menu():
+    print("-"*50)
+    x = input("Choice 1\nChoice 2\nChoice 3")
+    print("-"*50)
+    if x == "1":
+        #Code for choice 1
+    if x == "2":
+        #Code for choice 2
+    if x == "3":
+        #Code for choice 3
+  def again():
+    y = input("Print again? Y/N ")
+    if y == "Y":
+        menu()
+    if y == "N":
+        exit1()
